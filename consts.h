@@ -9,3 +9,6 @@ const uint32_t SegmentSize = 64;
 const uint32_t SectorSize = 1<<22;
 //convenience const, number of segments per sector
 const uint32_t SegmentsPerSector = SectorSize / SegmentSize;
+
+const uint8_t leafHashPrefix = 1;
+const uint8_t nodeHashPrefix = 1;
